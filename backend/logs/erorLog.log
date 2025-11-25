@@ -1,0 +1,17 @@
+20251124	18:27:37	f93a5600-b855-4858-ac9b-7717d7440ca9	not found /api/v1/test12
+20251124	18:33:58	1c5be8ea-3c76-4c0f-afb1-16a03281bbe8	not found /api/v1/register
+20251124	22:48:09	41f56c45-2778-4d3f-a63d-b0bdedb6a9fa	not found /api/v1/user/createOtp
+20251124	22:48:34	a9efc70f-5194-4b96-ae20-44526e9717e6	Cannot destructure property 'email' of 'req.body' as it is undefined.
+20251124	22:49:37	927f3cfd-7420-4833-8fc9-c5b5ff78d636	next is not a function
+20251124	22:58:05	58c11d0b-648d-482a-b66f-61f738c25cc3	user.findOneAndUpdate is not a function
+20251124	22:59:04	e7d2b1c5-f5fc-49f5-b078-b4ae708697e0	nodemailer is not defined
+20251124	23:00:08	b693fb04-f358-4f16-9a33-35bef0d05046	Invalid login: 535-5.7.8 Username and Password not accepted. For more information, go to
+535 5.7.8  https://support.google.com/mail/?p=BadCredentials d2e1a72fcca58-7c3ed076244sm15020107b3a.7 - gsmtp
+20251124	23:07:47	7adfe198-c500-4fe2-996c-6825d87a0436	Invalid login: 534-5.7.9 Application-specific password required. For more information, go to
+534 5.7.9  https://support.google.com/mail/?p=InvalidSecondFactor d2e1a72fcca58-7c3f024b4aesm15103581b3a.33 - gsmtp
+20251124	23:54:28	92d9ac6b-2106-42e7-b16b-2ae86d142f76	not found /api/v1/users/otpReq
+20251125	00:04:24	61055d5c-b384-46cf-b883-569f8c738ab6	not found /api/v1/users/otpReq
+20251125	18:00:45	b263e573-edfd-4424-ab71-0df68845f126	No recipients defined
+20251125	18:02:09	eab1236a-f623-4e96-94cc-64135c04fbf0	No recipients defined
+20251125	18:36:46	5d3f9684-b808-4892-86fe-fe9389e85895	No recipients defined
+20251125	19:00:27	0a8d24a0-e01d-451e-bdc2-1195aba72b90	No recipients defined
