@@ -2,15 +2,21 @@ import { StrictMode } from "react";
 import { createRoot } from "react-dom/client";
 import "./index.css";
 import App from "./App.jsx";
-import { AuthProvider } from "./contexts/AuthContext.jsx";
+import { AuthProvider } from "./contexts/AuthProvider.jsx";
 import { BrowserRouter } from "react-router-dom";
-import { RouterGuard } from "./lib/RouterGuard.jsx";
+import { NotificationProvider } from "./contexts/NotificationContext.jsx";
+import { LocalizationProvider } from "@mui/x-date-pickers";
+import { AdapterDayjs } from "@mui/x-date-pickers/AdapterDayjs";
 
 createRoot(document.getElementById("root")).render(
   <StrictMode>
     <AuthProvider>
       <BrowserRouter>
-        <App />
+        <NotificationProvider>
+          <LocalizationProvider dateAdapter={AdapterDayjs}>
+            <App />
+          </LocalizationProvider>
+        </NotificationProvider>
       </BrowserRouter>
     </AuthProvider>
   </StrictMode>

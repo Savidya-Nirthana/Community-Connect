@@ -3,13 +3,13 @@ import { useContext, useEffect } from "react";
 import { AuthContext } from "../contexts/AuthContext";
 
 export const RouterGuard = ({ children }) => {
-  const { user } = useContext(AuthContext);
+  const { user, loading } = useContext(AuthContext);
   const navigate = useNavigate();
   useEffect(() => {
-    if (!user) {
+    if (!user && !loading) {
       navigate("/signin", { replace: true });
     }
-  }, [navigate, user]);
+  }, [navigate, user, loading]);
 
   if (!user) return null;
 

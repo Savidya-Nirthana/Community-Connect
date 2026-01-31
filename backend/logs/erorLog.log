@@ -15,3 +15,152 @@
 20251125	18:02:09	eab1236a-f623-4e96-94cc-64135c04fbf0	No recipients defined
 20251125	18:36:46	5d3f9684-b808-4892-86fe-fe9389e85895	No recipients defined
 20251125	19:00:27	0a8d24a0-e01d-451e-bdc2-1195aba72b90	No recipients defined
+20251125	21:55:17	31cac0a1-7291-4079-8827-6a4912ab9a2b	Unexpected socket close
+20251125	22:10:48	d3ab3ffd-e09b-478f-9854-f709d0a5e32f	not found /api/v1/user/sendOtp
+20251125	22:12:20	7b2d4b49-4dfc-4780-bb87-152ae6638d58	body is not defined
+20251126	19:54:15	ee68fd95-7352-4211-9479-f3213c4d7570	Cannot destructure property 'email' of 'req.body' as it is undefined.
+20251126	19:55:56	3b3451bd-d88e-42dc-b062-5b956c24e422	not found /api/v1/user/otpSend/
+20251126	20:01:30	4b524847-edca-47c4-8321-ebfa3da26b38	Assignment to constant variable.
+20251126	20:01:43	d877c9de-03d4-4151-854d-abbb49c97536	Assignment to constant variable.
+20251126	20:25:59	ff19ebfc-54fd-4739-b0cc-b4da44ee733f	Otp expired
+20251126	23:02:38	59907792-5032-403d-96e6-17052f2f7485	not found /api/v1/user//registerUser
+20251126	23:02:48	7b7c212d-935d-454f-9675-861cf7f7ae5a	Cannot destructure property 'email' of 'req.body' as it is undefined.
+20251126	23:04:08	acd759c7-7a7c-4ef6-82ee-57074dcce201	Cannot destructure property 'email' of 'req.body' as it is undefined.
+20251126	23:10:50	1ad859dc-cada-46b1-93eb-1e912d2e995b	Cannot read properties of null (reading 'otpExpires')
+20251127	00:14:31	d3451777-4405-4426-8a0a-f9e384eea7e4	Cannot read properties of null (reading 'otp')
+20251127	00:58:09	6bc48a36-58fe-473e-8fae-851eb9b0f011	genarateToken is not defined
+20251127	00:59:00	c30c3c2c-cbac-4793-89ee-5a7405ae7b0a	genarateToken is not defined
+20251127	01:00:12	70616a5d-ab39-4f87-8723-cc0d57b8db8a	genarateToken is not defined
+20251127	01:22:06	38863156-1182-42d9-afc2-82dccc958002	not found /api/v1/user/getData
+20251127	01:22:16	a6b3316c-defc-4691-87df-c4fe865d8fd4	not found /api/v1/user/getData
+20251127	01:26:13	b5721b07-3754-4732-99d0-b4a4f08441cf	Cannot read properties of undefined (reading 'email')
+20251127	01:26:13	68bd45a5-cba5-4bc0-8f6b-bcf270868767	Cannot read properties of undefined (reading 'email')
+20251127	01:51:20	f29dde3c-cb58-48bb-bad2-93abbcf04c12	res is not defined
+20251127	12:42:04	a661b761-d2ee-43b4-9863-2a8358c07056	not found /api/v1/ui/bannerUpload
+20251127	12:43:13	a05ad100-d0ba-4274-943c-ce317a34cc8c	Unexpected field
+20251127	17:26:09	e0efe824-6c8f-436d-aed7-a1929d86a643	not found /api/v1/ui/
+20251127	17:28:23	fca77bf6-8658-4bc2-9f83-86c35f7685d1	req is not defined
+20251127	18:48:30	88316571-a126-48b0-865e-efbf5f1305f1	web.findAndDelete is not a function
+20251127	18:48:32	6fcb2a6b-0e58-4858-a313-f5e8a104bf66	web.findAndDelete is not a function
+20251127	18:49:04	97e3a304-c1e3-472a-bee7-fe0f24c570bf	web.findAndDelete is not a function
+20251127	18:49:33	c4d7afd5-a395-4bdd-82f3-6ed65e65f77f	web.findAndDelete is not a function
+20251127	18:56:58	4881a3b0-3c4c-49b4-bd66-071e25fadf7f	Cannot read properties of null (reading 'url')
+20251127	18:56:58	0dbab997-2fc5-4f91-b6e6-271df91e52dd	Cannot read properties of null (reading 'url')
+20251127	18:58:58	d4e81c7c-0766-4e7e-ab90-5634dd8ba7a0	Cannot read properties of null (reading 'url')
+20251127	18:58:58	80788f77-bb87-4bf7-b834-fd42b2c1b890	Cannot read properties of null (reading 'url')
+20251127	18:59:38	8a134fc5-3c43-4b47-b4e0-c376e64bf462	Cannot read properties of null (reading 'url')
+20251127	18:59:39	c43173df-a809-47a9-a14b-b8f5d0286988	Cannot read properties of null (reading 'url')
+20251127	18:59:52	1af3a6e6-8f80-4297-9943-ee127b323456	Cannot read properties of null (reading 'url')
+20251127	18:59:52	11cf63e0-bcad-4cde-9e20-052526b41a62	Cannot read properties of null (reading 'url')
+20251127	19:12:39	18cfb35d-8d3d-45bc-8094-35d68dce3544	Cannot read properties of null (reading 'url')
+20251127	19:12:46	55fc2032-4c74-41a4-9794-ab03a6728bd2	Cannot read properties of null (reading 'url')
+20251127	19:12:46	7e01776d-e8fa-4df8-8cf3-30391d16dc56	Cannot read properties of null (reading 'url')
+20251127	19:13:40	cefdae17-9739-40c4-9a9b-f7b32e1c224f	Cannot read properties of null (reading 'url')
+20251127	19:13:40	a4cc64fd-47be-41ff-9246-804ae188e654	Cannot read properties of null (reading 'url')
+20251127	19:13:50	e71fa6da-53c0-4c42-84e6-b711f91e6dc9	Cannot read properties of null (reading 'url')
+20251127	19:13:50	efe2d85e-bd14-49e2-ba32-97877c6d4447	Cannot read properties of null (reading 'url')
+20251127	19:14:37	4085e057-2fdd-45d8-9685-136ac3f3a071	Cannot read properties of null (reading 'url')
+20251127	19:14:38	b4e554ab-c560-4af6-a494-8a820d2497d3	Cannot read properties of null (reading 'url')
+20251127	19:16:58	0f77268a-08bf-4e4d-9de3-f4abac249290	Cannot read properties of null (reading 'url')
+20251127	19:17:02	61ae5526-a710-43b4-aa76-4d1e10fa7e85	Cannot read properties of null (reading 'url')
+20251127	19:17:03	410c728f-89ee-424c-92dd-a1dab5d097c5	Cannot read properties of null (reading 'url')
+20251127	19:18:45	cfd67cea-2e7b-4148-825c-949de1a6b29f	Cannot read properties of null (reading 'url')
+20251127	20:45:50	56ddbe32-d223-4fcd-a16b-d7f6c8417509	Cannot read properties of null (reading 'url')
+20251127	20:48:38	f6f9495a-f128-4724-994f-fec689d38492	Cannot read properties of null (reading 'url')
+20251127	20:50:43	5fd8eb8b-eb74-416d-8b74-ac5906fd5c54	Cannot read properties of null (reading 'url')
+20251127	21:15:05	50e910aa-407d-4e5d-a90f-1f514b3740de	read ECONNRESET
+20251128	04:57:15	4323cc43-5dd7-4917-8ee4-5ca95b79f702	getaddrinfo ENOTFOUND ac-bjcxurx-shard-00-00.jagscar.mongodb.net
+20251128	04:57:15	79814e7c-16e3-47d4-8591-b5aece1ce640	getaddrinfo ENOTFOUND ac-bjcxurx-shard-00-00.jagscar.mongodb.net
+20251203	08:04:39	400291ea-5015-4aca-be51-70db50b20a34	getaddrinfo ENOTFOUND ac-bjcxurx-shard-00-00.jagscar.mongodb.net
+20251203	23:34:04	86cac714-409a-487f-ba23-fb9467207253	getaddrinfo ENOTFOUND ac-bjcxurx-shard-00-00.jagscar.mongodb.net
+20251204	07:52:24	cb54174a-4805-49ca-aa2d-b07cd43c6c1c	getaddrinfo ENOTFOUND ac-bjcxurx-shard-00-00.jagscar.mongodb.net
+20260130	00:41:21	a3511abf-9a55-48aa-a28b-8bdf87b783f5	Cannot read properties of null (reading 'url')
+20260130	00:43:39	1b873f2b-f12e-4d71-90a5-4014b55561f3	Cannot read properties of null (reading 'url')
+20260130	00:43:39	32c6a4ab-0194-4f4b-8325-b25f63e57fe6	Cannot read properties of null (reading 'url')
+20260130	00:45:25	5acebba3-2496-475c-a847-aad7569043dc	Cannot read properties of null (reading 'url')
+20260130	00:45:25	ebfc3e70-dae0-40db-a27b-3ea100c12389	Cannot read properties of null (reading 'url')
+20260130	00:47:07	d0c7d801-8dc0-4c4a-8546-0f64870574ce	Cannot read properties of null (reading 'url')
+20260130	00:47:07	0f834b5a-e8a5-4d39-aab3-105371f77a79	Cannot read properties of null (reading 'url')
+20260130	00:47:57	ad6464b5-ebdb-4256-853d-f0c4dd2f9eed	Cannot read properties of null (reading 'url')
+20260130	00:47:57	5cf75a56-868d-4528-9dff-66d6a8c41842	Cannot read properties of null (reading 'url')
+20260130	00:49:33	1dc2e43f-2cce-4f61-90c7-0b747143ba69	Cannot read properties of null (reading 'url')
+20260130	00:49:33	ccfe5c92-fb07-45a9-b751-1b547d929255	Cannot read properties of null (reading 'url')
+20260130	00:50:09	bdb5afec-921b-46ab-b83e-2808eb5c35fc	Cannot read properties of null (reading 'url')
+20260130	00:50:09	86e3d1b2-9166-4070-9197-b6942bb5dff2	Cannot read properties of null (reading 'url')
+20260130	00:51:06	5772653d-4e9d-4c76-8909-28fea1d687ef	Cannot read properties of null (reading 'url')
+20260130	00:51:07	cfc04974-b518-48ad-b52d-d9df2ba48451	Cannot read properties of null (reading 'url')
+20260130	00:53:35	1e663a12-1bf2-4db5-9b9d-e674dd443802	Cannot read properties of null (reading 'url')
+20260130	00:53:35	1957c954-62df-4c0d-a2ab-da1a0d60fc43	Cannot read properties of null (reading 'url')
+20260130	00:58:16	1ff89199-b1f7-4cf7-b07d-9bfb6f1e7ce8	Cannot read properties of null (reading 'url')
+20260130	00:58:17	300c0a70-8873-4e42-95a4-c6b519a00fea	Cannot read properties of null (reading 'url')
+20260130	12:57:53	18dbc955-171a-42f6-8ace-4c6025f3ec8f	Cannot read properties of null (reading 'url')
+20260130	12:57:53	66b33dc1-430a-4baf-8efc-e47d53aeb43b	Cannot read properties of null (reading 'url')
+20260130	13:06:45	58590f51-bead-4cd3-9d67-076fbb82c63a	Cannot read properties of null (reading 'url')
+20260130	13:06:45	b40f9519-762a-4a0d-bd76-e35966af06bb	Cannot read properties of null (reading 'url')
+20260130	13:07:37	866cf3ec-f87c-4435-84c0-1ab1d6224d1c	Firebase Storage: User does not have permission to access 'web/static/banner2.webp'. (storage/unauthorized)
+20260130	13:07:37	8579d541-e8e3-4fcd-803b-41bb7449511b	Firebase Storage: User does not have permission to access 'web/static/banner2.webp'. (storage/unauthorized)
+20260130	13:07:37	94b02a7e-0d7c-4af0-be82-6f71cd9501b9	Firebase Storage: User does not have permission to access 'web/static/banner2.webp'. (storage/unauthorized)
+20260130	13:07:37	8a30f632-53a8-4e01-8238-e376adeffdab	Firebase Storage: User does not have permission to access 'web/static/banner2.webp'. (storage/unauthorized)
+20260130	13:07:37	d165ef4c-64ae-4d75-a8e5-bce9d138f3b7	Firebase Storage: User does not have permission to access 'web/static/banner2.webp'. (storage/unauthorized)
+20260130	13:07:37	c72dfd0d-1319-489b-8721-6ec497eb2512	Firebase Storage: User does not have permission to access 'web/static/banner2.webp'. (storage/unauthorized)
+20260130	13:07:37	823c8937-6fc5-42df-a5d0-bdb33ad7ca84	Firebase Storage: User does not have permission to access 'web/static/banner2.webp'. (storage/unauthorized)
+20260130	13:07:37	f20abf51-3ecd-4f5f-a812-a1f1f399996a	Firebase Storage: User does not have permission to access 'web/static/banner2.webp'. (storage/unauthorized)
+20260130	13:07:37	fb48841e-8dd9-4363-a2a5-ddd5a2e2c167	Firebase Storage: User does not have permission to access 'web/static/banner2.webp'. (storage/unauthorized)
+20260130	13:07:37	26275366-1fff-4bf3-ad7c-083ddde6e7f1	Firebase Storage: User does not have permission to access 'web/static/banner2.webp'. (storage/unauthorized)
+20260130	13:07:37	282cac51-57dc-4353-a64a-de054dc7d93e	Firebase Storage: User does not have permission to access 'web/static/banner2.webp'. (storage/unauthorized)
+20260130	13:07:37	baec672e-dadc-46c5-b278-0b1ee1a8e0c2	Firebase Storage: User does not have permission to access 'web/static/banner2.webp'. (storage/unauthorized)
+20260130	13:07:38	0972001c-d259-4e4a-b6f0-dbb42c89c8fa	Firebase Storage: User does not have permission to access 'web/static/banner2.webp'. (storage/unauthorized)
+20260130	13:07:38	e6d38412-2e4a-439d-8e0d-d86f39e0a5f7	Firebase Storage: User does not have permission to access 'web/static/banner2.webp'. (storage/unauthorized)
+20260130	13:07:38	d75b455b-5606-48bb-bbf9-a6f739d72ca0	Firebase Storage: User does not have permission to access 'web/static/banner2.webp'. (storage/unauthorized)
+20260130	13:07:38	91606c3b-3bce-4ab0-8c99-05c0d5a98bab	Firebase Storage: User does not have permission to access 'web/static/banner2.webp'. (storage/unauthorized)
+20260130	13:07:38	c6ab9ae3-749e-4b12-8fd9-dddd3b7b8484	Firebase Storage: User does not have permission to access 'web/static/banner2.webp'. (storage/unauthorized)
+20260130	13:07:38	27b80ff2-c9ec-49d6-9c77-ee754f0d3202	Firebase Storage: User does not have permission to access 'web/static/banner2.webp'. (storage/unauthorized)
+20260130	13:07:38	e188226d-f20f-41a7-ab68-adc6d295c069	Firebase Storage: User does not have permission to access 'web/static/banner2.webp'. (storage/unauthorized)
+20260130	13:07:38	63e87714-f5b8-4a59-8dbe-774138e70f01	Firebase Storage: User does not have permission to access 'web/static/banner2.webp'. (storage/unauthorized)
+20260130	13:07:38	77165b03-1409-4404-9bb9-9698b04d1b4d	Firebase Storage: User does not have permission to access 'web/static/banner2.webp'. (storage/unauthorized)
+20260130	13:07:38	5f8d2d20-91d1-40e2-bbd9-6981c66432a2	Firebase Storage: User does not have permission to access 'web/static/banner2.webp'. (storage/unauthorized)
+20260130	13:07:38	db599c1d-56d0-4b02-ae81-35b2e7e87f3a	Firebase Storage: User does not have permission to access 'web/static/banner2.webp'. (storage/unauthorized)
+20260130	13:07:38	7560b120-2cb9-4759-8651-f65ceafcecf1	Firebase Storage: User does not have permission to access 'web/static/banner2.webp'. (storage/unauthorized)
+20260130	13:07:38	07e48d18-8da6-482a-8025-85228c88b2d4	Firebase Storage: User does not have permission to access 'web/static/banner2.webp'. (storage/unauthorized)
+20260130	13:07:38	6f744690-0c57-4378-a467-78d569abd6de	Firebase Storage: User does not have permission to access 'web/static/banner2.webp'. (storage/unauthorized)
+20260130	13:07:38	d24896a5-cfb3-4599-9329-6ee747a1ad52	Firebase Storage: User does not have permission to access 'web/static/banner2.webp'. (storage/unauthorized)
+20260130	13:07:38	689b3e50-9640-48a9-9857-dd45002a9c64	Firebase Storage: User does not have permission to access 'web/static/banner2.webp'. (storage/unauthorized)
+20260130	13:07:38	c6b1f99b-10fd-4b8c-9a08-2c1591fc5b9e	Firebase Storage: User does not have permission to access 'web/static/banner2.webp'. (storage/unauthorized)
+20260130	13:07:38	5d069585-f2a4-44f4-b522-7c900d3033cf	Firebase Storage: User does not have permission to access 'web/static/banner2.webp'. (storage/unauthorized)
+20260130	13:07:38	a814e91f-a452-46c7-a6fd-6632e3974d64	Firebase Storage: User does not have permission to access 'web/static/banner2.webp'. (storage/unauthorized)
+20260130	13:07:39	a3718dd7-52bd-4d85-9bea-2fbc50a5ab65	Firebase Storage: User does not have permission to access 'web/static/banner2.webp'. (storage/unauthorized)
+20260130	13:07:39	d4599a88-d80f-48ae-881a-29ce45360132	Firebase Storage: User does not have permission to access 'web/static/banner2.webp'. (storage/unauthorized)
+20260130	13:07:39	a0c82593-9f62-4f30-a2b7-440c2d130c55	Firebase Storage: User does not have permission to access 'web/static/banner2.webp'. (storage/unauthorized)
+20260130	13:07:39	2659fd95-ea58-4dae-bf20-73a945565d93	Firebase Storage: User does not have permission to access 'web/static/banner2.webp'. (storage/unauthorized)
+20260130	13:07:39	c4aacc62-9359-49e6-9165-ed9e27b84494	Firebase Storage: User does not have permission to access 'web/static/banner2.webp'. (storage/unauthorized)
+20260130	13:07:39	0f6a79d1-3805-4151-8c4d-3998f2ac4abc	Firebase Storage: User does not have permission to access 'web/static/banner2.webp'. (storage/unauthorized)
+20260130	13:07:39	971b336e-02aa-48a5-b6a7-6bef9a204bbd	Firebase Storage: User does not have permission to access 'web/static/banner2.webp'. (storage/unauthorized)
+20260130	13:07:39	cb07d608-c5f9-4578-b544-67d882d867e9	Firebase Storage: User does not have permission to access 'web/static/banner2.webp'. (storage/unauthorized)
+20260130	13:07:39	e72ed394-2a7d-4dc4-951d-ff2497841c61	Firebase Storage: User does not have permission to access 'web/static/banner2.webp'. (storage/unauthorized)
+20260130	13:07:39	13e1640f-875f-4a1a-99d5-e81807038eab	Firebase Storage: User does not have permission to access 'web/static/banner2.webp'. (storage/unauthorized)
+20260130	13:07:39	b885aa09-5b48-4005-a960-9975b84af3fb	Firebase Storage: User does not have permission to access 'web/static/banner2.webp'. (storage/unauthorized)
+20260130	13:07:39	46ab48b5-be6e-4b82-9d29-f7e4338106bc	Firebase Storage: User does not have permission to access 'web/static/banner2.webp'. (storage/unauthorized)
+20260130	13:07:39	eb8ec453-e54c-477a-bcc7-09e84464f963	Firebase Storage: User does not have permission to access 'web/static/banner2.webp'. (storage/unauthorized)
+20260130	13:07:39	6317b6b5-f72b-453e-ad02-15978a843ed8	Firebase Storage: User does not have permission to access 'web/static/banner2.webp'. (storage/unauthorized)
+20260130	13:07:39	ec542bb0-fb28-4eaa-af6c-ed279e590390	Firebase Storage: User does not have permission to access 'web/static/banner2.webp'. (storage/unauthorized)
+20260130	13:07:39	59951c07-3b10-46b9-8571-7d3b41ebdc0c	Firebase Storage: User does not have permission to access 'web/static/banner2.webp'. (storage/unauthorized)
+20260130	13:07:39	01355bde-57d4-40e1-9a84-73089037e235	Firebase Storage: User does not have permission to access 'web/static/banner2.webp'. (storage/unauthorized)
+20260130	13:07:39	e9da35de-d319-4a74-b8e3-53e01b3fb9fc	Firebase Storage: User does not have permission to access 'web/static/banner2.webp'. (storage/unauthorized)
+20260130	13:07:39	415d9fbd-20ea-446c-b3db-9cc3a83eed52	Firebase Storage: User does not have permission to access 'web/static/banner2.webp'. (storage/unauthorized)
+20260130	13:07:39	0dc4a829-8e20-45e8-b77b-386801275d62	Firebase Storage: User does not have permission to access 'web/static/banner2.webp'. (storage/unauthorized)
+20260130	13:07:39	9c9a12c5-9f61-4060-8d1e-0731b253bea0	Firebase Storage: User does not have permission to access 'web/static/banner2.webp'. (storage/unauthorized)
+20260130	13:07:39	81436d08-d1a7-4914-973f-8b46c3a68207	Cannot read properties of null (reading 'url')
+20260130	13:07:40	bf72a338-1447-4730-9aec-66721fb9943d	Cannot read properties of null (reading 'url')
+20260130	13:08:02	7bbe6e44-feb6-4577-8b31-e919d163d521	Firebase Storage: User does not have permission to access 'web/static/banner2.webp'. (storage/unauthorized)
+20260130	13:17:31	22385e43-cca7-4ea2-82b3-10490212b96f	Firebase Storage: User does not have permission to access 'web/static/banner2.webp'. (storage/unauthorized)
+20260130	13:17:37	77b3b3f8-6010-42d5-8952-3fe8c6dd36eb	Cannot read properties of null (reading 'url')
+20260130	13:17:37	d32c4ccc-4956-49f0-86e2-2f9539230d02	Cannot read properties of null (reading 'url')
+20260130	13:17:47	61de65c7-6d7e-4776-ae11-8c00c4487744	Firebase Storage: User does not have permission to access 'web/static/banner2.webp'. (storage/unauthorized)
+20260130	13:21:36	41cfb506-62ba-4caf-90e1-d9c287cda519	Cannot read properties of null (reading 'url')
+20260130	13:21:37	b09eb9f1-7e1f-4e8a-a1b7-a3b9d7c455b4	Cannot read properties of null (reading 'url')
+20260130	13:21:47	36dcc317-7699-4dd7-86c3-61dbe5aa6992	Firebase Storage: User does not have permission to access 'web/static/banner2.webp'. (storage/unauthorized)
+20260130	13:29:24	d1d2f385-9cb9-4e51-819f-ce1db677f076	Cannot read properties of null (reading 'url')
+20260130	13:30:52	074d0a1a-9992-4b70-874c-2287b3837ec9	Cannot read properties of null (reading 'url')
+20260130	13:30:52	4dfcd84a-67fc-4380-b979-ca2a3c4228d4	Cannot read properties of null (reading 'url')
+20260130	13:35:56	d2ae26c8-058f-43bd-99e5-9405e643ca6d	Cannot read properties of null (reading 'url')
+20260130	22:00:55	5c970e9b-ea25-45be-b546-452b689e0efe	Cannot read properties of null (reading 'url')

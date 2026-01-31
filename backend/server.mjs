@@ -4,12 +4,16 @@ import dotenv from "dotenv";
 import databaseConnection from "./config/connection.js";
 import { errorHandler, notFound } from "./middlewares/errorMiddleware.js";
 import userRouter from "./routes/user.js";
+import uiRouter from "./routes/ui.js";
+import eventRouter from "./routes/event.js";
 import cors from "cors";
+import cookieParser from "cookie-parser";
 
 dotenv.config();
 const app = express();
 const server = http.createServer(app);
 app.use(express.json());
+app.use(cookieParser());
 
 app.use(
   cors({
@@ -19,6 +23,9 @@ app.use(
 );
 
 app.use("/api/v1/user/", userRouter);
+app.use("/api/v1/ui/", uiRouter);
+app.use("/api/v1/event/", eventRouter);
+
 
 app.use("/api/v1/test", (req, res) => {
   return res.status(200).json({ message: "tested" });

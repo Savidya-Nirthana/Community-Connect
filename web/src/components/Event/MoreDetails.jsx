@@ -1,0 +1,94 @@
+import {
+  FormControl,
+  InputLabel,
+  MenuItem,
+  Select,
+  TextareaAutosize,
+  TextField,
+} from "@mui/material";
+
+const categories = [
+  "Music & Concerts",
+  "Festivals",
+  "Sports & Fitness",
+  "Workshops & Classes",
+  "Business & Networking",
+  "Conferences & Seminars",
+  "Arts & Culture",
+  "Food & Drink",
+  "Charity & Fundraising",
+  "Community & Local Events",
+  "Religious / Spiritual",
+  "Family & Kids",
+  "Technology & Innovation",
+  "Education & Training",
+  "Health & Wellness",
+  "Parties & Social Gatherings",
+  "Travel & Outdoor Activities",
+  "Film & Entertainment",
+  "Gaming & eSports",
+  "Exhibitions & Trade Shows",
+];
+
+const MoreDetails = ({
+  selectCategory,
+  setSelectCategory,
+  description,
+  setDescription,
+  setPosition,
+  submit,
+}) => {
+  return (
+    <div className="">
+      <div className=" text-[40px] font-semibold">
+        Add some details about your event
+      </div>
+
+      <div className=" mt-10 flex flex-col gap-5">
+        <FormControl fullWidth sx={{ fontSize: "20px" }}>
+          <InputLabel id="select-category">Select Category</InputLabel>
+          <Select
+            labelId="select-category"
+            id="category-select"
+            value={selectCategory}
+            label="Select Category"
+            onChange={(e) => setSelectCategory(e.target.value)}
+          >
+            {categories.map((cat, index) => (
+              <MenuItem key={index} value={cat}>
+                {cat}
+              </MenuItem>
+            ))}
+          </Select>
+        </FormControl>
+        <div>
+          <TextareaAutosize
+            minRows={4}
+            placeholder="Write something about your event..."
+            style={{
+              width: "100%",
+              padding: "12px",
+              borderRadius: "8px",
+              border: "1px solid #ccc",
+              fontSize: "16px",
+            }}
+            value={description}
+            onChange={(e) => setDescription(e.target.value)}
+          />
+        </div>
+      </div>
+
+      <button
+        className={` px-20 py-5 rounded-4xl mt-10 ${
+          selectCategory && description ? "bg-[#ff942b]" : "bg-slate-300"
+        } text-white float-end  mr-10`}
+        onClick={submit}
+        disabled={!selectCategory && !description}
+      >
+        Continue
+      </button>
+    </div>
+  );
+};
+
+export default MoreDetails;
