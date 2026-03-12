@@ -1,6 +1,7 @@
 import API from "./axiosinstant";
 const BASE_URL = "api/v1/event";
 
+
 export const createEvent = async (submit_data) => {
   try {
     if (submit_data.banner) {
@@ -18,11 +19,19 @@ export const createEvent = async (submit_data) => {
       // console.log("Banner uploaded:", submit_data.banner);
     }
 
-    const response = await API.post(
-      `${BASE_URL}/createEvent`,
-      submit_data,
-      { withCredentials: true }
-    );
+    const response = await API.post(`${BASE_URL}/createEvent`, submit_data, {
+      withCredentials: true,
+    });
+    return response;
+  } catch (e) {
+    console.log(e);
+  }
+};
+
+
+export const getDataMonth = async () => {
+  try {
+    const response = await API.get(`${BASE_URL}/getDataMonth`);
     return response;
   } catch (e) {
     console.log(e);

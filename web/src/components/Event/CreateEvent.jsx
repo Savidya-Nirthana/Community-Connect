@@ -12,8 +12,10 @@ import NavigateNextIcon from "@mui/icons-material/NavigateNext";
 import NavigateBeforeIcon from "@mui/icons-material/NavigateBefore";
 import { IconButton } from "@mui/material";
 import { createEvent } from "../../services/eventservice";
+import { useNotification } from "../../contexts/NotificationContext";
 
 const CreateEvent = ({ setCreateEvent }) => {
+  const { showNotification } = useNotification();
   const [eventName, setEventName] = useState("");
 
   const [selectedDates, setSelectedDates] = useState([]);
@@ -28,9 +30,13 @@ const CreateEvent = ({ setCreateEvent }) => {
 
   const [position, setPosition] = useState(0);
 
+  const [startTime, setStartTime] = useState(null);
+
   const [maxPostion, setMaxPosition] = useState(0);
 
   const [loading, setLoading] = useState(false);
+
+  const [price, setPrice] = useState("Free")
 
   const submit = async () => {
     setLoading(true);
@@ -41,11 +47,16 @@ const CreateEvent = ({ setCreateEvent }) => {
       select_location: selectedLocation,
       select_category: selectCategory,
       description: description,
+      start_time: startTime,
+      price: price
     };
+
+    console.log(submit_data);
 
     const response = await createEvent(submit_data);
     if (response.status === 201) {
       setLoading(false);
+      showNotification(response.data.message, "success");
       setCreateEvent(false);
     }
   };
@@ -68,6 +79,7 @@ const CreateEvent = ({ setCreateEvent }) => {
     <MultiDatePicker
       selectedDates={selectedDates}
       setSelectedDates={setSelectedDates}
+      setStartTime={setStartTime}
       setPosition={setPosition}
     />,
     <ShowLoaction
@@ -89,6 +101,7 @@ const CreateEvent = ({ setCreateEvent }) => {
       setDescription={setDescription}
       setPosition={setPosition}
       submit={submit}
+      setPrice={setPrice}
     />,
   ];
 

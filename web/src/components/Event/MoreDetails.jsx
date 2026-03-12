@@ -1,11 +1,17 @@
 import {
   FormControl,
+  Input,
   InputLabel,
   MenuItem,
   Select,
   TextareaAutosize,
   TextField,
 } from "@mui/material";
+import FormControlLabel from "@mui/material/FormControlLabel";
+import Checkbox from "@mui/material/Checkbox";
+import FilledInput from "@mui/material/FilledInput";
+import InputAdornment from "@mui/material/InputAdornment";
+import { useState } from "react";
 
 const categories = [
   "Music & Concerts",
@@ -37,7 +43,9 @@ const MoreDetails = ({
   setDescription,
   setPosition,
   submit,
+  setPrice,
 }) => {
+  const [isCheck, setIsCheck] = useState(true);
   return (
     <div className="">
       <div className=" text-[40px] font-semibold">
@@ -77,11 +85,30 @@ const MoreDetails = ({
           />
         </div>
       </div>
-
+      <div>
+        <FormControlLabel
+          control={
+            <Checkbox defaultChecked onClick={() => setIsCheck(!isCheck)} />
+          }
+          label="Free"
+        />
+        {!isCheck ? (
+          <FormControl fullWidth sx={{ m: 1 }} variant="filled">
+            <InputLabel htmlFor="filled-adornment-amount">Amount</InputLabel>
+            <FilledInput
+              id="filled-adornment-amount"
+              startAdornment={
+                <InputAdornment position="start">$</InputAdornment>
+              }
+              onChange={(e) => setPrice(e.target.value)}
+            />
+          </FormControl>
+        ) : null}
+      </div>
       <button
         className={` px-20 py-5 rounded-4xl mt-10 ${
           selectCategory && description ? "bg-[#ff942b]" : "bg-slate-300"
-        } text-white float-end  mr-10`}
+        } text-white float-end  mr-10 `}
         onClick={submit}
         disabled={!selectCategory && !description}
       >

@@ -23,11 +23,7 @@ function CustomDay(props) {
   );
 }
 
-const MultiDatePicker = ({
-  selectedDates,
-  setSelectedDates,
-  setPosition
-}) => {
+const MultiDatePicker = ({ selectedDates, setSelectedDates, setStartTime ,setPosition }) => {
   const toggleDate = (date) => {
     const dateString = dayjs(date).format("YYYY-MM-DD");
 
@@ -49,12 +45,16 @@ const MultiDatePicker = ({
         slotProps={{ day: { selectedDates } }}
       />
 
+      <div className="flex flex-row gap-2 justify-end mr-20">
+        <div className="font-semibold text-[20px]">Start time: </div>
+        <input type="time" onChange={(e) => setStartTime(e.target.value)} />
+      </div>
       <button
         className={` px-20 py-5 rounded-4xl ${
           selectedDates.length > 0 ? "bg-[#ff942b]" : "bg-slate-300"
         } text-white float-end mr-20 mt-10`}
         onClick={() => {
-          setPosition(2)
+          setPosition(2);
         }}
         disabled={selectedDates.length <= 0}
       >

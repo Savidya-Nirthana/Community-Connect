@@ -25,7 +25,7 @@ const NavBar = ({ setCreateEvent }) => {
   };
   return (
     <div
-      className="flex flex-row items-center gap-8 py-3 px-3 bg-white shadow-md z-10 fixed w-full"
+      className="flex flex-row items-center gap-8 py-3 px-3 bg-white shadow-md z-10 fixed w-full z-[100]"
       onMouseLeave={() => {
         setShowNavDrop(false);
         setUserNav(false);

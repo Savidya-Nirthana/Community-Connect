@@ -164,3 +164,7 @@
 20260130	13:30:52	4dfcd84a-67fc-4380-b979-ca2a3c4228d4	Cannot read properties of null (reading 'url')
 20260130	13:35:56	d2ae26c8-058f-43bd-99e5-9405e643ca6d	Cannot read properties of null (reading 'url')
 20260130	22:00:55	5c970e9b-ea25-45be-b546-452b689e0efe	Cannot read properties of null (reading 'url')
+20260312	00:52:53	be96c556-6592-4632-85dc-4a2c5da77eba	Connection pool for ac-bjcxurx-shard-00-01.jagscar.mongodb.net:27017 was cleared because another operation failed with: "connect ETIMEDOUT 159.41.196.33:27017"
+20260312	00:53:23	d13d0ba3-8d07-4824-aa20-210ffd422c5e	getaddrinfo ENOTFOUND ac-bjcxurx-shard-00-02.jagscar.mongodb.net
+20260312	01:01:46	e68a8ca5-0da7-49f9-a13d-9fff1db97fcc	connect ETIMEDOUT 159.41.196.33:27017
+20260312	01:03:27	b58237ec-8c81-4147-a5ac-7dee420858f8	connect ETIMEDOUT 159.41.196.33:27017

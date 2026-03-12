@@ -5,6 +5,8 @@ import CreateEvent from "../components/Event/CreateEvent";
 import { AnimatePresence, motion } from "motion/react";
 import ProtectedComponents from "../routes/ProtectedComponents";
 import ThisMonth from "../components/Events/ThisMonth";
+import Bottom from "../components/bottom/Bottom";
+import Categories from "../components/Event/Categories";
 const Home = () => {
   const [createEvent, setCreateEvent] = useState(false);
 
@@ -28,6 +30,8 @@ const Home = () => {
           </ProtectedComponents>
         )}
       </AnimatePresence>
+      <Categories />
+      <Bottom />
     </div>
   );
 };

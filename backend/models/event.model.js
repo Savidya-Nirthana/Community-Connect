@@ -14,6 +14,10 @@ const eventSchema = mongoose.Schema(
       type: [Date],
       required: true,
     },
+    start_time: {
+      type: String,
+      required: true,
+    },
     location: {
       type: Object,
       required: true,
@@ -26,10 +30,25 @@ const eventSchema = mongoose.Schema(
       type: String,
       default: null,
     },
+    price: {
+      type: String,
+      default: "Free",
+    },
+    likes: [
+      {
+        type: mongoose.Schema.Types.ObjectId,
+        ref: "User",
+      },
+    ],
+    participations: [
+      {
+        type: mongoose.Schema.Types.ObjectId,
+        ref: "User",
+      },
+    ],
   },
-  { timestamps: true }
+  { timestamps: true },
 );
-
 
 const Event = mongoose.model("Event", eventSchema);
 export default Event;
