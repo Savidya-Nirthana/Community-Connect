@@ -4,6 +4,7 @@ import NavigateBeforeOutlinedIcon from "@mui/icons-material/NavigateBeforeOutlin
 import { useEffect, useState } from "react";
 import { AnimatePresence, motion } from "motion/react";
 import { getDataMonth } from "../../services/eventservice";
+import { Link } from "react-router-dom";
 
 const ThisMonth = () => {
   const [page, setPage] = useState(0);
@@ -16,7 +17,6 @@ const ThisMonth = () => {
     const getMonthData = async () => {
       setLoading(true);
       const response = await getDataMonth();
-      console.log(response);
       setData(response.data);
       setLoading(false);
     };
@@ -107,14 +107,21 @@ const ThisMonth = () => {
                   className="flex flex-row gap-5 justify-start w-full absolute top-0 left-0"
                 >
                   {currentItems.map((item) => (
-                    <EventCard key={item.id} item={item} />
+                    <Link to={`/event/${item._id}`}>
+                      <EventCard
+                        key={item.id}
+                        item={item}
+                      />
+                    </Link>
                   ))}
                 </motion.div>
               </AnimatePresence>
             </div>
           ) : (
             <div className=" bg-slate-50 h-[300px] w-[1200px] flex items-center justify-center rounded-lg shadow-md animate-pulse">
-              <div className="text-2xl font-semibold text-center text-slate-500"><span className=" text-[40px]">😢</span>Oops no events found</div>
+              <div className="text-2xl font-semibold text-center text-slate-500">
+                <span className=" text-[40px]">😢</span>Oops no events found
+              </div>
             </div>
           )}
           <button

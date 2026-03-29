@@ -28,7 +28,7 @@ export const createEvent = asyncHandler(async (req, res) => {
       location: eventData.select_location,
       bannerUrl: eventData.banner,
       category: eventData.select_category,
-      price: eventData.price
+      price: eventData.price,
     });
     return res.status(201).json({ message: "Event created successfully" });
   } catch (error) {
@@ -48,6 +48,20 @@ export const getDataMonth = asyncHandler(async (req, res) => {
     return res.status(200).json(response);
   } catch (error) {
     console.error("Error fetching events:", error);
+    return res.status(500).json({ message: "Server Error" });
+  }
+});
+
+export const getEventById = asyncHandler(async (req, res) => {
+  try {
+    const { id } = req.params;
+    const response = await Event.findById(id);
+    if (!response) {
+      return res.status(404).json({ message: "Event not found" });
+    }
+    return res.status(200).json(response);
+  } catch (error) {
+    console.error("Error fetching event:", error);
     return res.status(500).json({ message: "Server Error" });
   }
 });

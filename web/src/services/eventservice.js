@@ -37,3 +37,12 @@ export const getDataMonth = async () => {
     console.log(e);
   }
 };
+
+export const getEventById = async (id) => {
+  try {
+    const response = await API.get(`${BASE_URL}/getEventById/${id}`);
+    return response;
+  } catch (e) {
+    console.log(e);
+  }
+};

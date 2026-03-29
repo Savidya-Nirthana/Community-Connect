@@ -3,6 +3,7 @@ import Authentication from "./pages/Authentication";
 import Home from "./pages/Home";
 import { useContext } from "react";
 import { AuthContext } from "./contexts/AuthContext";
+import EventPage from "./pages/EventPage";
 
 function App() {
   const { loading } = useContext(AuthContext);
@@ -14,6 +15,7 @@ function App() {
       <Route path="/" element={<Navigate to="/home" replace />} />
       <Route path="/signin" element={<Authentication />} />
       <Route path="/home" element={<Home />} />
+      <Route path="/event/:id" element={<EventPage />} />
     </Routes>
   );
 }
